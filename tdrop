@@ -414,8 +414,6 @@ set_class() {
 			class=urxvt
 		elif [[ $program == xiatec ]]; then
 			class=xiate
-		elif [[ $program == alacritty ]]; then
-			class=Alacritty
 		elif [[ $program == flatpak ]]; then
 			# flatpak jails the application, the PID cannot be used to find
 			# the window. A specific class has to be given by the user.
